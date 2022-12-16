@@ -1,0 +1,14 @@
+<section>
+    <table>
+      <tr *ngFor="let row of  bitStringStream; let i = index">
+        <td class="field" *ngFor="let field of row; let j = index">
+          <input type="text" #bit maxlength="1" style="width: 20px; height: 20px;" (input)="onBitEntry(bit.value, i, j)">
+        </td>
+      </tr>
+    </table>
+</section>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">No Thanks</button>
+    <button mat-button [mat-dialog-close]="bitStringStream1" cdkFocusInitial>Ok</button>
+</div>
+

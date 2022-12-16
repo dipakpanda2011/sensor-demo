@@ -1,0 +1,74 @@
+  
+.example-header-image {
+background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-size: cover;
+}
+
+.parent {
+  position: relative !important;
+  top: 0;
+  left: 0;
+}
+
+.template {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.node{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+} 
+
+.node0 {
+    top: 26px;
+    left: 306px;
+}
+.node1 {
+    top: 104px;
+    left: 306px;
+}
+
+
+.node2 {
+    top: 68px;
+    left: -4px;
+}
+.node3 {
+    top: 138px;
+    left: 62px;
+}
+.node4 {
+    top: 148px;
+    left: 306px;
+}
+.node5 {
+    top: 142px;
+    left: 538px;
+}
+.node6 {
+    top: 68px;
+    left: 620px;
+}
+
+.node7 {
+    top: 506px;
+    left: 306px;
+}
+.node8 {
+    top: 580px;
+    left: 188px;
+}
+.node9 {
+    top: 580px;
+    left: 424px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.field{
+    padding: 10px;
+}
